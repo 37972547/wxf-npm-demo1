@@ -1,4 +1,7 @@
-```sequence
-participant A
-participant B as b-alias
+```mermaid
+  graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
 ```
